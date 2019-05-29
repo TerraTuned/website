@@ -1,0 +1,50 @@
+$size:400px;
+$color-dark:#333;
+@mixin autocenter {
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+body {
+    background-color:$color-dark;
+    #preloader {
+        @include autocenter;
+        width:$size;
+        height:$size;
+        background-color:transparent;
+        div {
+            width:$size/20;
+            height:$size/20;
+            background-color:#777;
+            position:absolute;
+            $top:$size/40;
+            $left:$size/40;
+            $delay:0s;
+            @for $n from 1 through 100 {
+        &:nth-child(#{$n}) {
+            top:$top;
+            left:$left;
+            $left:$left+$size/10;
+            animation:wave 3s infinite linear;
+            animation-delay:$delay;
+            $delay:$delay+0.2s;
+            }
+            @if $n % 10 == 0 {
+            $top:$top+$size/10;
+            $left:$size/40;
+            $delay:0;
+            }
+        }
+    }
+}
+}
+@keyframes wave {
+    0%   {transform:translateY($size/0) scale(1)}
+    25%  {transform:translateY(-$size/40) scale(1.5)}
+    50%  {transform:translateY($size/0) scale(1)}
+    75%  {transform:translateY($size/40) scale(0.3)}
+    100% {transform:translateY($size/0) scale(1)}
+}

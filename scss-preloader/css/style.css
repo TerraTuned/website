@@ -1,0 +1,457 @@
+body {
+  background-color: #333;
+}
+
+body #preloader {
+  width: 500px;
+  height: 500px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+}
+
+body #preloader .circle:nth-child(1) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 462.5px;
+  height: 462.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #a1a1a1 solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(2) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 450px;
+  height: 450px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #a6a6a6 solid;
+  border-right-color: transparent;
+  -webkit-animation: r-left 2s infinite;
+          animation: r-left 2s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(3) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 437.5px;
+  height: 437.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #969696 solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(4) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 425px;
+  height: 425px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #6b6b6b solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(5) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 412.5px;
+  height: 412.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #828282 solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(6) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #8f8f8f solid;
+  border-top-color: transparent;
+  -webkit-animation: r-right 2s infinite;
+          animation: r-right 2s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(7) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 387.5px;
+  height: 387.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #9c9c9c solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(8) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 375px;
+  height: 375px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #a3a3a3 solid;
+  border-right-color: transparent;
+  -webkit-animation: r-left 2s infinite;
+          animation: r-left 2s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(9) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 362.5px;
+  height: 362.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #949494 solid;
+  border-right-color: transparent;
+  -webkit-animation: r-left 2s infinite;
+          animation: r-left 2s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(10) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 350px;
+  height: 350px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #757575 solid;
+  border-top-color: transparent;
+  -webkit-animation: r-right 2s infinite;
+          animation: r-right 2s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(11) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 337.5px;
+  height: 337.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #b3b3b3 solid;
+  border-right-color: transparent;
+  -webkit-animation: r-left 2s infinite;
+          animation: r-left 2s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(12) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 325px;
+  height: 325px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #575757 solid;
+}
+
+body #preloader .circle:nth-child(13) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 312.5px;
+  height: 312.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #919191 solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(14) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #ababab solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(15) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 287.5px;
+  height: 287.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #828282 solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(16) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 275px;
+  height: 275px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #a3a3a3 solid;
+  border-top-color: transparent;
+  -webkit-animation: r-right 2s infinite;
+          animation: r-right 2s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(17) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 262.5px;
+  height: 262.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #a3a3a3 solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(18) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #454545 solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(19) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 237.5px;
+  height: 237.5px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #4d4d4d solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body #preloader .circle:nth-child(20) {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 225px;
+  height: 225px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5px #b3b3b3 solid;
+  border-bottom-color: transparent;
+  -webkit-animation: r-right 0.8s infinite;
+          animation: r-right 0.8s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes r-right {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes r-right {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes r-left {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes r-left {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */

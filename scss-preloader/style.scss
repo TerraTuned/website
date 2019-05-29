@@ -1,0 +1,62 @@
+$color1:red;
+$color-dark:#333;
+$color-light:#070;
+@mixin autocenter {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+$size:500px;
+body {
+    background-color:$color-dark;
+    #preloader {
+        width:$size;
+        height:$size;
+        background-color:transparent;
+        @include autocenter;
+        border-radius:100%;
+        @for $n from 1 through 20 {
+        .circle:nth-child(#{$n}) {
+            border-radius:100%;
+            width:$size*(0.95 - ($n/40));
+            height:$size*(0.95 -($n/40));
+            background-color:transparent;
+            @include autocenter;
+            border: 0.0010*$size lighten($color-dark,1%*random(50)) solid;
+            // IF FUNCTIONS 
+            @if random()<0.2 {
+            border-top-color:transparent;
+            animation:r-right 2s infinite;
+            animation-timing-function: linear;
+            }
+            @else if random()>0.8 {
+            border-right-color:transparent;
+            animation:r-left 2s infinite;
+            animation-timing-function: linear;
+            }
+            @else if random()>0.2 {
+            border-bottom-color:transparent;
+            animation:r-right 0.8s infinite;
+            animation-timing-function: linear;
+            }
+            @else if random()<0.5 {
+            border-left-color:transparent;
+            animation:r-left 5s infinite;
+            animation-timing-function: linear;
+            }
+            // IF FUNCTIONS
+        }
+        }
+    }
+}
+@keyframes r-right {
+    from {transform:rotate(0deg)}
+    to   {transform:rotate(360deg)}
+}    
+@keyframes r-left {
+    from {transform:rotate(0deg)}
+    to   {transform:rotate(-360deg)}
+}
